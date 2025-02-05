@@ -1,65 +1,38 @@
-/* General Styles */
+/* General Reset */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9f9;
+    color: #183d3d;
 }
 
-header {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: transparent;
+    font-weight: bold;
 }
 
-header h1 {
-  margin: 0;
+nav .logo {
+    font-size: 20px;
 }
 
-header p {
-  margin: 5px 0 0;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-section {
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+nav ul li a {
+    text-decoration: none;
+    color: #183d3d;
 }
 
-h2 {
-  color: #333;
-  border-bottom: 2px solid #333;
-  padding-bottom: 10px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 10px 0;
-}
-
-a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #333;
-  color: #fff;
-  margin-top: 20px;
-}
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: cente
